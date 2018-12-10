@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+        .testSpan {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background: #333;
+        }
+
+        .box {
+            margin: 100px auto;
+            width: 0;
+            height: 0;
+            border-width: 20px;
+            border-color: transparent transparent transparent black;
+            border-style: dashed dashed dashed solid;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://i03picsos.sogoucdn.com/6ef9c1d2b9f2cc2a" alt="测试alt" title="测试title" />
+    <span class="testSpan">你好</span>
+    <div class="box"></div>
+    <table border="10">
+        <tr>
+            <td colsapn="2" align="center">员工号</td>
+        </tr>
+        <tr>
+            <td colsapn="2" align="center">学历</td>
+            <td align="center">专业</td>
+        </tr>
+        <tr>
+            <td colsapn="2" align="center">毕业院校</td>
+        </tr>
+    </table>
+    <div style=”margin:5px”>1</div>
+    <div style=”margin:10px”>2</div>
+
+</body>
+<script>
+    let cat = {
+        sound: "meow",
+        say: function () {
+            alert(this.sound);
+        }
+    };
+    let catSay = cat.say;
+    // catSay();
+    // alert(1 && 2) //2
+    // alert(1 || 2) //1
+</script>
+
+</html>
